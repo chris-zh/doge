@@ -1,2 +1,4 @@
-# doge
-a website by Flask
+doge
+===
+
+刚毕业只配写屎
