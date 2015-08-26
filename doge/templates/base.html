@@ -8,7 +8,7 @@
     <title>doge</title>
 
     <!-- Bootstrap -->
-    <link href="../static/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='libs/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,8 +23,8 @@
     {% endblock %}
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../static/libs/jquery/dist/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='libs/jquery/dist/jquery.min.js') }}"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../static/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='libs/bootstrap/dist/js/bootstrap.min.js') }}"></script>
   </body>
 </html>
