@@ -1,5 +1,4 @@
 *.py[ocd]
-
 .idea
 
 settings.py
@@ -37,4 +36,4 @@ docs/_build/
 # PyBuilder
 target/
 sql/*
-
+config.py

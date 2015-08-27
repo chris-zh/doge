@@ -1,0 +1,16 @@
+# coding: utf-8
+# email: khahux@gmail.com
+
+
+configs = {
+    'SECRET_KEY': 'change me',
+    'HOST': '0.0.0.0',
+    'PORT': 1991,
+    'DEBUG': True
+}
+
+mongodb_configs = {
+    'host': '127.0.0.1',
+    'port': 27017,
+    'db': ''
+}
