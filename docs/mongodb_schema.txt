@@ -1,0 +1,42 @@
+#用户表
+t_user{
+id:ObjectId ID
+user_name: str,姓名
+login_name:str,登陆用户名
+email:str,邮箱
+cellphone:str,电话
+gender:int.性别0-未知 1-男 2-女
+status:int.用户状态 0-未激活 1-激活 2-删除 3-封禁
+last_login_at:datetime.最后登陆时间
+last_login_ip:str.最后登陆ID
+create_at:datetime,创建时间
+update_at:datetime,更新时间
+}
+#用户档案表
+t_user_profile{
+id:Object ID
+user_id:str 用户ID
+user_profession:str 行业
+user_work_experience:str 工作经历
+user_residence:str 居住地
+user_education_experience:str 教育经历
+}
+#用户关注表
+t_user_follow{
+id:Object ID
+follower_id:str 关注者
+followed_id:str 被关注者
+follow_time:datetime,创建时间
+}
+#用户话题表
+t_user_subject{
+id:Object ID
+subject_id:str 话题ID
+user_id:str 用户ID
+}
+#用户动态日志表
+t_user_log{
+id:Object ID
+operation_type:int.操作类型
+operation_time:datetime.操作时间
+}
